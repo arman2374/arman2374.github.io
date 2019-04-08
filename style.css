@@ -1,0 +1,389 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototype
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Sujan
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu area
+		2.2 Welcome text 
+		2.3 Social media
+	3. Geting started
+	4. Design area
+	5. Community area
+	6. Subscripe area
+	7. Download area
+	8. Footer area
+
+-----------------------------------------------------------------------------------*/
+
+
+/***************** 1. Typography ******************************/
+
+@font-face {
+	font-family: "GothamRounded-Book";
+	src: url('fonts/GothamRounded-Book.woff') format('woff');
+}
+body, p {
+	font-family: "GothamRounded-Book";
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+h3 {
+	color: #16A086;
+	font-family: "GothamRounded-Book";
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	letter-spacing: 1px;
+}
+h2 {
+	font-size: 26px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: normal;
+}
+
+
+h5 {
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+p {
+	font-size: 10px;
+	color: #AEAFB1;
+	letter-spacing: 1px;
+	line-height: 2em;
+}
+
+
+/*******2. Hreader area ******/
+.header-area {
+	background: url('images/headerbg.jpg') no-repeat 0 0/   100% 100%;
+	color: #ffffff;
+	text-align: center;
+	overflow: hidden;
+	padding: 25px 0;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1060px;
+}
+
+/************* menu area **************/
+
+.manu-area ul {
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.manu-area ul li {
+	display: inline;
+	margin: 0 20px;
+}
+.manu-area ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	display: inline-block;
+	padding: 5px 0;
+	border-bottom: 1px solid transparent;
+	transition: .5s;
+}
+.manu-area ul .logo img {
+	margin: 0 20px;
+	width: 40px;
+	height: auto;
+}
+.manu-area ul .logo a:hover {
+	border: none;
+}
+.manu-area ul .logo a {
+	border: none;
+}
+.manu-area ul li a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
+/**********2.2 Welcome text ***************/
+.welcome-text {
+	margin-top: 180px;
+	overflow: hidden;
+}
+
+.btn {
+	text-decoration: none;
+	color: #ffffff;
+	background: #16A086;
+	text-transform: uppercase;
+	padding: 10px 25px;
+	border-radius: 2px;
+	display: inline-block;
+	transition: .4s;
+	border: 1px solid transparent;
+}
+.btn:hover {
+	background: #ffffff;
+	color: #16A086;
+	border: 2px solid #16A086;
+}
+
+/********** 2.3 Social media ***************/
+.social-media {
+	overflow: hidden;
+	margin-top: 140px;
+	
+}
+.social-media ul {
+	list-style: none;
+	margin: 0;
+	padding: o;
+	text-align: center;
+	padding-left: inherit;
+}
+.social-media ul li {
+	display: inline;
+	margin: 0 10px;
+}
+.social-media ul li a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+/********** 3. Geting started ***************/
+
+
+.getting-started {
+	overflow: hidden;
+	background-color: #F5F6F8;
+}
+
+
+
+.getting-started .text-area {
+	margin-top: 40px;
+	padding-bottom: 30px;
+	background-image: url('images/hand.png');
+	background-repeat: no-repeat; 
+	background-size: 50% auto;
+	background-position: top right;
+	
+}
+
+.getting-started .start-text {
+	width: 50%;
+}
+
+
+
+.text-area p {
+	margin-bottom: 30px;
+}
+.getting-started strong,
+.design-area strong {
+	color: #666666;
+}
+
+
+/********** 4. Design area ***************/
+.design-area {
+	overflow: hidden;
+	margin-top: 60px;
+	max-height: 500px;
+}
+
+.design {
+	overflow: hidden;
+	background-image: url('images/mobile.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 30%;
+}
+.design-text {
+	width: 40%;
+	overflow: hidden;
+	float: right;
+}
+
+.slide {
+	margin: 50px 0;
+}
+.arrow i {
+	color: black;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+/********** 6. Subscribe area ***************/
+.subscribe-area {
+	background: url('images/subscribebg.jpg') no-repeat 0 0/ 100% 100%;
+	padding: 200px;
+}
+.subscribe-area form {
+	width: 240px;
+	margin: 0 auto;
+}
+.subscribe-area form input[type="email"] {
+	background: white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	border-radius: 3px 0 0 3px;
+	margin-right: 0;
+	
+}
+.subscribe-area form button {
+	background: #11A689;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	margin-left: -3px;
+}
+/******community-area*****/
+.community{
+	overflow: hidden;
+	background-color: #F5F6F8;
+	Display: block;
+	padding-bottom: 100px;
+}
+.arrow-2 {
+	height: 120px;
+	width: 100%;
+	color: black;
+}
+.arrow-2 i {
+	color: black;
+	font-size: 20px;
+	margin-right: 10px;
+	
+}
+.arrow-3 { 
+	height: 20px;
+	width: 20px;
+	float: right;
+}
+.community .green-logo {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.community .image-middle {
+	width: 33%;
+	float: left;
+	overflow: hidden;
+
+}
+.community .image-right {
+	width: 33%;
+	float: right;
+	overflow: hidden;
+
+}
+
+/********** 7. Download area ***************/
+.download-area {
+	padding: 80px 0;
+	overflow: hidden;
+	background-color: #F5F6F8;
+}
+.download-text {
+	text-align: center;
+	padding-bottom: 40px;
+}
+.download-text p {
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.form-1 {
+	text-align: center;
+}
+
+.btn-1 {
+	text-decoration: none;
+	color: #ffffff;
+	background: #16A086;
+	text-transform: uppercase;
+	padding: 15px 80px;
+	border-radius: 2px;
+	display: inline-block;
+	transition: .4s;
+	border: 1px solid transparent;
+	letter-spacing: 5px;
+	font-weight: bold;
+	margin: 5px;
+}
+.btn-1:hover {
+	background: #ffffff;
+	color: #16A086;
+	border: 2px solid #16A086;
+}
+
+/*****************	8. Footer area ******************************/
+.footer-area {
+	padding: 60px;
+}
+.footer-text {
+	width: 80%;
+	float: left;
+	overflow: hidden;
+}
+.footer-text h4 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer-text p {
+	color:  black;
+	font-weight: bold;
+}
+.footer-area .footer-logo {
+	float: right;
+	width: 20%;
+}
+
+
+@media all and (max-width: 400px) {
+	.header-area .manu-area ul li{
+		width: 100%;
+		display: inline-block;
+	}
+	.header-area .welcome-text h2 {
+		padding-bottom: 50px;
+		width: 100%;s
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
